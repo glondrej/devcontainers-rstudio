@@ -1,0 +1,8 @@
+# Load necessary library
+library(readr)
+
+# Define the path to the raw data
+data_path <- "../data/raw_data.csv"
+
+# Read the raw data into a data frame
+raw_data <- read_csv(data_path)
